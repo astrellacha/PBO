@@ -16,10 +16,14 @@ public class BalladRock extends Music implements BalladStyle, RockStyle {
     }
 
     public void performClimax() {
+        System.out.println("\n--- STRUKTUR ARANSEMEN BALLAD-ROCK ---");
+        playPianoMelody();
+        buildEmotionalCrescendo();
+        playGuitarSolo(9);
+        triggerDrumClimax(true);
         System.out.println("\n[EXPLOSIVE BALLAD-ROCK CLIMAX]");
         System.out.println("Puncak emosi lagu meledak dengan belting vokal " + vocalCharacter + " dan solo gitar " + leadInstrument + "!");
     }
-
     public void playPianoMelody() {
         System.out.println("[BALLAD] Dentingan piano lembut mengiringi bait pertama.");
     }

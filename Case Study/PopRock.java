@@ -1,5 +1,5 @@
 public class PopRock extends Music implements PopStyle, RockStyle {
-   private String vocalCharacter;
+    private String vocalCharacter;
     private String leadInstrument;
 
     public PopRock (String title, String artist, int durationInSeconds, 
@@ -16,6 +16,12 @@ public class PopRock extends Music implements PopStyle, RockStyle {
     }
 
     public void performClimax() {
+        System.out.println("\n--- STRUKTUR ARANSEMEN POP-ROCK ---");
+        playSynthesizerRiff();
+        // hookRepeat dipakai di dalam playCatchyHook (konstanta dari interface)
+        playCatchyHook("Energetic Hook");
+        playGuitarSolo(7);
+        triggerDrumClimax(false);
         System.out.println("\n[UPBEAT POP-ROCK CLIMAX]");
         System.out.println("Klimaks energetic dengan perpaduan vokal " + vocalCharacter + " dan synth-rock " + leadInstrument + "!");
     }
