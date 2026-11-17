@@ -18,8 +18,7 @@ Aplikasi desktop sederhana berbasis **Java Swing** untuk mencatat dan menampilka
   * **Event Handling:** Menggunakan `ActionListener` untuk menangani aksi klik pada tombol **Tampilkan Data** dan **Bersihkan**.
 
 
-demo 
-image/gui1.png
+![Tampilan Aplikasi GUI](image/gui1.png)
 
 
 
